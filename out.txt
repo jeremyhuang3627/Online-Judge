@@ -1,0 +1,61 @@
+node i 2 insert into 1
+color of 2is 1
+ans 1
+
+node i 3 insert into 1
+color of 3is 1
+ans 1
+
+node i 4 insert into 1
+color of 4is 2
+ans 1
+
+node i 5 insert into 3
+numeber of children for node 3 : 0
+color is same as parent 1
+cost is same as parent 1
+ans 1
+
+node i 6 insert into 4
+numeber of children for node 4 : 0
+color is same as parent 2
+cost is same as parent 1
+ans 1
+
+node i 7 insert into 4
+numeber of children for node 4 : 1
+color of 7is from new color  3
+cost is 2
+ans 2
+
+node i 8 insert into 7
+numeber of children for node 7 : 0
+color is same as parent 3
+cost is same as parent 2
+ans 2
+
+node i 9 insert into 3
+numeber of children for node 3 : 1
+color of 9is from new color  4
+cost is 2
+ans 2
+
+node i 10 insert into 7
+numeber of children for node 7 : 1
+color of 10is from new color  5
+cost is 3
+ans 3
+
+node i 11 insert into 6
+numeber of children for node 6 : 0
+color is same as parent 2
+cost is same as parent 1
+ans 1
+
+node i 12 insert into 6
+numeber of children for node 6 : 1
+color of 12is from new color  6
+cost is 2
+ans 2
+
+
