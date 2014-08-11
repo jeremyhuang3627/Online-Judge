@@ -16,12 +16,14 @@ long long sum[M];
 
 int main(){
 	scanf("%d",&n);
+	
 	F(i,1,n +1){
 		F(j,1,n +1){
 			scanf("%d",&adj[i][j]);
 			p[i][j] = adj[i][j];
 		}
 	}
+
 	F(i,1,n + 1){
 		scanf("%d",&o[i]);
 	}
